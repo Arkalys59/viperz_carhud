@@ -31,7 +31,6 @@ window.addEventListener('message', function(event) {
 
         document.getElementById('street-name').innerText = data.status.street;
 
-        // Añadir el estado de daño del vehículo
         var damageLevel = Math.round(data.status.damage);
         document.getElementById('damage-level').innerText = damageLevel;
         
